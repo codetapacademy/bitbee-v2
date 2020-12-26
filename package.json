@@ -23,7 +23,7 @@
   "config": {
     "customUrl": "http://bitbee.uk",
     "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
-    "deployToGithubIo": true,
+    "deployToGithubIo": false,
     "directory": {
       "development": "tmp",
       "production": "build",
