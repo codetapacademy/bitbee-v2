@@ -21,7 +21,7 @@
     "pnp": false
   },
   "config": {
-    "customUrl": "http://v2.bitbee.uk",
+    "customUrl": "https://v2.bitbee.uk",
     "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
     "deployToGithubIo": false,
     "directory": {
