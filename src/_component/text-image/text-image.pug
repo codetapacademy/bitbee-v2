@@ -1,0 +1,21 @@
+-
+  var getSlug = text => String(text)
+    .trim()
+    .toLowerCase()
+    .replace(/[\?!]+/g, '')
+    .replace(/\W+/g, '-')
+mixin textImage(data)
+  .text-image
+    if data.title
+      h2.text-image__title= data.title
+    if data.description
+      p.text-image__description= data.description
+    if data.button
+      a.text-image__button(
+        href=`${baseUrl}info/${getSlug(data.button)}`
+      )= data.button
+
+    if data.image
+      .text-image__image(
+        style=`--bg-url: url(${baseUrl}asset/image/${data.image})`
+      )
