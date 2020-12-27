@@ -1,8 +1,15 @@
-left:
-  - Increase your ROI
-  - Decrease Bounce Rate
-  - Load faster than 1s
-right:
-  - master how to build websites
-  - build from the 1st day
-  - land a job in months
+title: 'you are our #1 priority'
+list:
+  -
+    title: company
+    whatYouGet:
+      - increase sales
+      - top 1%
+      - more clients
+  -
+    title: web developer
+    whatYouGet:
+      - get hired quickly
+      - top 10%
+      - tailored help
+

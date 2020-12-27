@@ -1,5 +1,9 @@
-each left in data.intro.left
-  p= left
+.intro
+  h1.intro__title= data.intro.title
+  .intro__welcome
+    each item in data.intro.list
+      ul.intro__you-get-list
+        li.intro__list-type= item.title
+        each listItem in item.whatYouGet
+          li.intro__you-get=listItem
 
-each right in data.intro.right
-  p= right
