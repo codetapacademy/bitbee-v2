@@ -1,0 +1,47 @@
+.intro
+  background: #00d4ff
+  background-image: radial-gradient(circle, #fff, #eefdff)
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+  &__logo
+    background-image: url(#{$baseUrl}asset/image/bitbee.svg)
+    width: 125px
+    height: 150px
+    position: absolute
+    top: 1rem
+    left: 1rem
+
+  &__welcome
+    display: grid
+
+  &__you-get
+    font-size: 24px
+    color: #212529
+    text-transform: capitalize
+
+    &::before
+      // more arrows: ➟ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➚ ➘ ➙ ➛ ➜ ➝ ➞ ➸ ♐ ➲ ➳ ➳ ➴ ➵ ➶ ➷ ➸ ➹ ➺ ↖ ↗ ↘ ↙ ↚ ↛ ⏎
+      // https://fsymbols.com/signs/bullet-point/
+      content: '➜'
+      padding-right: 15px
+
+  &__list-type
+    text-align: center
+    font-size: 24px
+    color: transparent
+    transition: 250ms
+
+  &__you-get-list
+    list-style-type: none
+
+    &:hover .intro__list-type
+      color: #212529
+
+  &__title
+    font-weight: normal
+    color: #6b6b84
+    text-transform: capitalize

@@ -7,3 +7,4 @@ package-lock.json
 .publish
 .pnp*
 yarn-error.log
+*.DS_Store*
