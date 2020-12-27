@@ -1,0 +1,8 @@
+.team
+  each user in data.team
+    .team__member
+      .team__avatar(
+        style=`--bg-avatar: url(${baseUrl}asset/image/team/${user.avatar})`
+      )
+      .team__name= user.name
+      .team__job= user.job

@@ -1,0 +1,92 @@
+-
+  name: Marian Zburlea
+  job: CEO & Mentor
+  avatar: marian-zburlea.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/marianzburlea
+    - 
+      icon: linkedin
+      url: https://www.linkedin.com/in/marianzburlea/
+    -
+      icon: github
+      url: https://github.com/marianzburlea
+- name: Gratiela Zburlea
+  job: Marketing & Founder
+  avatar: gratiela-zburlea.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/gratielanicu
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/gra%C8%9Biela-zburlea-b4797682/
+    -
+      icon: github
+      url: https://github.com/gratielazburlea
+- name: Laurentiu Tanase
+  job: Senior Back-End Developer
+  avatar: laurentiu-tanase.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/RealTimeCom
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/onkitty/
+    -
+      icon: github
+      url: https://github.com/RealTimeCom
+- name: Ionut Daniel Petrut
+  job: Junior Front-End Developer
+  avatar: ionut-daniel-petrut.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/ionutdaniel.petrut
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/i-daniel-petrut-88153b2b/
+    -
+      icon: github
+      url: https://github.com/samuray90
+
+- name: Elena Tandara
+  job: Mid Web Developer
+  avatar: elena-tandara.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/tandara.elena.9
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/elena-%C8%9Band%C4%83r%C4%83/
+    -
+      icon: github
+      url: https://github.com/tandaraelena
+
+- name: Razvan Mocanu
+  job: Mid Web Developer
+  avatar: razvan-mocanu.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/mysthh
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/razvan-victor-mocanu/
+    -
+      icon: github
+      url: https://github.com/QuintyHH
+
+- name: Andrei Madalin Nicu
+  job: Video Editor
+  avatar: andrei-madalin-nicu.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/andrei.madalin.5473
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/andrei-madalin-nicu-340529188/
