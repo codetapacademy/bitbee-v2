@@ -1,7 +1,7 @@
 .text-image
   display: grid
   grid-template-columns: repeat(2, 1fr)
-  grid-template-rows: repeat(3, 1fr)
+  grid-template-rows: repeat(2, 1fr) auto
   padding: 2.5rem
   margin: 2.5rem 0
   min-height: 400px
@@ -16,7 +16,25 @@
     background-position: center center
     background-repeat: no-repeat
 
+  &__title
+    color: #212529
+    font-size: 48px
+    font-weight: bold
+
+  &__button
+    background-color: var(--color-orange)
+    color: var(--color-white)
+    text-decoration: none
+    justify-self: self-start
+    padding: 0.6rem 1.5rem
+    border-radius: 0.5rem
+    transition: 250ms
+
+    &:hover
+      background-color: var(--color-dark)
+
   &__title,
   &__description,
   &__button
+    font-family: 'Nunito', sans-serif
     grid-column-start: 1
