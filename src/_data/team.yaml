@@ -90,3 +90,14 @@
     -
       icon: linkedin
       url: https://www.linkedin.com/in/andrei-madalin-nicu-340529188/
+
+- name: Viorica Bar
+  job: Sales
+  avatar: viorica-bar.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/viorica.bar
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/viorica-bar-0a606450/
