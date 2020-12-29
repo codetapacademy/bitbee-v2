@@ -338,6 +338,23 @@
       icon: facebook
       url: https://www.facebook.com/cate.ak.56
 
+- name: Adrian Ciociu
+  type: collaborator
+  job: Starter Web Developer
+  avatar: adrian-ciociu.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/AdrianCiociu1
+
+- name: Ancuta Hantari
+  type: collaborator
+  job: Starter Web Developer
+  avatar: ancuta-hantari.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/ancuta.hantari
 
 - name: Tom Williams
   type: collaborator
