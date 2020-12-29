@@ -6,10 +6,17 @@
   .team__member-list
     each user in team
       .team__member
-        img.team__avatar.smart-load(
-          data-src=`${baseUrl}asset/image/team/${user.avatar}`
-          alt=`Image of ${user.name}, who is a ${user.job} at BitBee Ltd`
-        )
+        .team__image--wrapper
+          img.team__avatar.smart-load(
+            data-src=`${baseUrl}asset/image/team/${user.avatar}`
+            alt=`Image of ${user.name}, who is a ${user.job} at BitBee Ltd`
+          )
+          each social in (user.social || [])
+            a.team__social-list(
+              class=`bb-${social.icon}`
+              href=social.url
+              target="_blank"
+            )
         .team__name= user.name
         .team__job= user.job
 
@@ -17,9 +24,16 @@
   .team__member-list
     each user in collaboratorList
       .team__member
-        img.team__avatar.smart-load(
-          data-src=`${baseUrl}asset/image/team/${user.avatar}`
-          alt=`Image of ${user.name}, who is a ${user.job} at BitBee Ltd`
-        )
+        .team__image--wrapper
+          img.team__avatar.smart-load(
+            data-src=`${baseUrl}asset/image/team/${user.avatar}`
+            alt=`Image of ${user.name}, who is a ${user.job} at BitBee Ltd`
+          )
+          each social in (user.social || [])
+            a.team__social-list(
+              class=`bb-${social.icon}`
+              href=social.url
+              target="_blank"
+            )
         .team__name= user.name
         .team__job= user.job

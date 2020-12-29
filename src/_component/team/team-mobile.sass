@@ -1,6 +1,31 @@
 .team
   padding: 1rem
 
+  &__image--wrapper
+    min-width: 300px
+
+  &__social-list
+    padding: 0.5rem 0
+    transition: 250ms
+    text-decoration: none
+    display: block
+    color: $color-storm-gray
+
+    &:hover
+      transform: scale(1.11)
+
+    &::before
+      font-size: 32px
+
+  &__avatar
+    float: left
+    width: 256px
+    height: 256px
+    border-radius: 50%
+    transition: 250ms
+    border: 10px solid rgba(0, 212, 255, 0.25)
+    shape-outside: circle(50%)
+
   &__member-list
     display: grid
     grid-gap: 2.5rem
@@ -19,8 +44,12 @@
     align-items: center
     cursor: pointer
 
-    &:hover .team__avatar
-      transform: rotate(2.5deg) scale(1.05)
+    &:hover
+      .team__avatar
+        transform: rotate(2.5deg) scale(1.05)
+
+      .team__social-list:first-of-type
+        margin-top: 2rem
 
   &__name
     font-size: 23px
@@ -35,10 +64,3 @@
     line-height: 1.5
     font-family: 'Nunito', serif
     color: $color-orange
-
-  &__avatar
-    width: 256px
-    height: 256px
-    border-radius: 50%
-    transition: 250ms
-    border: 10px solid rgba(0, 212, 255, 0.25)
