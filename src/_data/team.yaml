@@ -101,3 +101,14 @@
     -
       icon: linkedin
       url: https://www.linkedin.com/in/viorica-bar-0a606450/
+
+- name: Laurentiu Oncescu 
+  job: Junior Web Developer
+  avatar: laurentiu-oncescu.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/laurentiu.oncescu/
+    -
+      icon: github
+      url: https://github.com/biggicode
