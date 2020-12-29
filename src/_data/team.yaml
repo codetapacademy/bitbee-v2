@@ -292,6 +292,18 @@
       icon: linkedin
       url: https://www.linkedin.com/in/inna-balaba-25a03419b/
 
+- name: Iulian Schifirnet
+  type: collaborator
+  job: Security, Web Developer
+  avatar: iulian-schifirnet.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/iulian.iulian.7186
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/iulian-schifirnet-238049201/
+
 - name: Istvan Acs
   type: collaborator
   job: Mid Web Developer
@@ -370,6 +382,16 @@
     -
       icon: facebook
       url: https://www.facebook.com/adelacecilia88
+
+
+- name: Catalin Sandru
+  type: collaborator
+  job: Starter Web Developer
+  avatar: catalin-sandru.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/sandru.catalin.1
 
 - name: Adrian Ciociu
   type: collaborator
