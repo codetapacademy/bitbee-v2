@@ -1,7 +1,21 @@
+-
+  const team = data.team.filter(({ type }) => type === 'team')
+  const collaboratorList = data.team.filter(({ type }) => type === 'collaborator')
 .team
-  .team__title Our Awesome People
+  .team__title Our Awesome Team
   .team__member-list
-    each user in data.team
+    each user in team
+      .team__member
+        img.team__avatar(
+          src=`${baseUrl}asset/image/team/${user.avatar}`
+          alt=`Image of ${user.name}, who is a ${user.job} at BitBee Ltd`
+        )
+        .team__name= user.name
+        .team__job= user.job
+
+  .team__title Our Great Collaborators
+  .team__member-list
+    each user in collaboratorList
       .team__member
         img.team__avatar(
           src=`${baseUrl}asset/image/team/${user.avatar}`

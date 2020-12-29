@@ -1,5 +1,5 @@
--
-  name: Marian Zburlea
+- name: Marian Zburlea
+  type: team
   job: CEO & Mentor
   avatar: marian-zburlea.jpg
   social:
@@ -13,6 +13,7 @@
       icon: github
       url: https://github.com/marianzburlea
 - name: Gratiela Zburlea
+  type: team
   job: Marketing & Founder
   avatar: gratiela-zburlea.jpg
   social:
@@ -26,6 +27,7 @@
       icon: github
       url: https://github.com/gratielazburlea
 - name: Laurentiu Tanase
+  type: team
   job: Senior Back-End Developer
   avatar: laurentiu-tanase.jpg
   social:
@@ -38,7 +40,78 @@
     -
       icon: github
       url: https://github.com/RealTimeCom
+
+- name: Valentina Vanu
+  type: team
+  job: Front-End Developer
+  avatar: valentina-vanu.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/ValentinaVanu
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/valentinavanu/
+    -
+      icon: github
+      url: https://github.com/ValentinaVanu
+
+- name: Cristina Hertea
+  type: team
+  job: Junior Front-End Developer
+  avatar: cristina-hertea.jpg
+  social:
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/cristina-hertea-3277621b9/
+
+- name: Bogdan Negura
+  type: team
+  job: Junior Front-End Developer
+  avatar: bogdan-negura.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/negura.constantinbogdan
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/bogdan-negura-267349177/
+    -
+      icon: github
+      url: https://github.com/bogdannegura
+
+- name: Robert Alexandru
+  type: team
+  job: Junior Front-End Developer
+  avatar: robert-alexandru.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/alexandru.robertvalentin
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/robert-valentin-alexandru-4a7896166/
+    -
+      icon: github
+      url: https://github.com/robertoalx
+
+- name: Iulian Carnaru
+  type: team
+  job: Mid Front-End Developer
+  avatar: iulian-carnaru.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/iulian.carnaru
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/iulian-carnaru-51aa63108/
+    -
+      icon: github
+      url: https://github.com/iuliancarnaru
+
 - name: Ionut Daniel Petrut
+  type: team
   job: Junior Front-End Developer
   avatar: ionut-daniel-petrut.jpg
   social:
@@ -53,6 +126,7 @@
       url: https://github.com/samuray90
 
 - name: Elena Tandara
+  type: team
   job: Mid Web Developer
   avatar: elena-tandara.jpg
   social:
@@ -67,6 +141,7 @@
       url: https://github.com/tandaraelena
 
 - name: Razvan Mocanu
+  type: team
   job: Mid Web Developer
   avatar: razvan-mocanu.jpg
   social:
@@ -80,7 +155,80 @@
       icon: github
       url: https://github.com/QuintyHH
 
+- name: Razvan Puscasu
+  type: team
+  job: Full Stack Developer
+  avatar: razvan-puscasu.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/Razvannnp
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/razvanpuscasu/
+
+- name: Carol Enache
+  type: team
+  job: Senior Web Developer
+  avatar: carol-enache.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/enache.carol
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/carol-enache-59504294/
+    -
+      icon: github
+      url: https://github.com/CarolEnache
+
+- name: Flavius Bohaciuc
+  type: team
+  job: Mid Web Developer
+  avatar: flavius-bohaciuc.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/flaviusbohaciuc
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/flaviusbohaciuc/
+    -
+      icon: github
+      url: https://github.com/thatflav
+
+- name: Cornel Cristian Filip
+  type: team
+  job: Full Stack Developer
+  avatar: cornel-cristian-filip.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/cornel.filip
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/cornelfilip/
+    -
+      icon: github
+      url: https://github.com/psyhedeliq
+
+- name: Antonio Radosav
+  type: team
+  job: Junior Front-End Developer
+  avatar: antonio-radosav.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/antonioradosav
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/radosavantonio/
+    -
+      icon: github
+      url: https://github.com/RadosavAntonio
+
 - name: Andrei Madalin Nicu
+  type: team
   job: Video Editor
   avatar: andrei-madalin-nicu.jpg
   social:
@@ -92,6 +240,7 @@
       url: https://www.linkedin.com/in/andrei-madalin-nicu-340529188/
 
 - name: Viorica Bar
+  type: team
   job: Sales
   avatar: viorica-bar.jpg
   social:
@@ -103,6 +252,7 @@
       url: https://www.linkedin.com/in/viorica-bar-0a606450/
 
 - name: Laurentiu Oncescu 
+  type: team
   job: Junior Web Developer
   avatar: laurentiu-oncescu.jpg
   social:
@@ -112,3 +262,68 @@
     -
       icon: github
       url: https://github.com/biggicode
+
+- name: Inna Balaba
+  type: team
+  job: Web Designer
+  avatar: inna-balaba.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/profile.php?id=100008025487396
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/inna-balaba-25a03419b/
+
+- name: Istvan Acs
+  type: collaborator
+  job: Mid Web Developer
+  avatar: istvan-acs.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/istvan.acs.524
+
+- name: Marco Pietro Carmasachi 
+  type: collaborator
+  job: Mid Web Developer
+  avatar: marco-pietro-carmasachi.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/marco.p.caramaschi
+
+- name: Dragos Vlasie
+  type: collaborator
+  job: Mid Web Developer
+  avatar: dragos-vlasie.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/vlasie.dragos.7
+
+- name: Daniel Varvara
+  type: collaborator
+  job: Mid Web Developer
+  avatar: daniel-varvara.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/Searath
+
+
+- name: Cate Zee
+  type: collaborator
+  job: Web Developer
+  avatar: cate-zee.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/cate.ak.56
+
+
+- name: Tom Williams
+  type: collaborator
+  job: Senior Web Developer
+  avatar: tom-williams.jpg
+
