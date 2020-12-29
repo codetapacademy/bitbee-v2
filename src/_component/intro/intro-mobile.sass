@@ -7,12 +7,8 @@
   flex-direction: column
 
   &__image
-    background-image: var(--bg-url)
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: center center
-    min-height: 200px
     margin-bottom: 2.5rem
+    max-width: 100%
 
   &__top
     display: grid
@@ -49,7 +45,7 @@
   &__list-type
     padding-left: 2.5rem
     font-size: 24px
-    color: var(--color-storm-gray)
+    color: $color-storm-gray
     transition: 250ms
     letter-spacing: 8px
 
@@ -58,7 +54,7 @@
 
   &__title
     font-weight: normal
-    color: var(--color-storm-gray)
+    color: $color-storm-gray
     text-transform: capitalize
     font-size: 24px
     letter-spacing: 8px

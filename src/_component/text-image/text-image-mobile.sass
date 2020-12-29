@@ -7,20 +7,16 @@
   background-repeat: no-repeat
 
   &__image
-    background-image: var(--bg-url)
-    background-size: contain
-    background-position: center center
-    background-repeat: no-repeat
-    min-height: 200px
+    max-width: 100%
 
   &__title
-    color: var(--color-revolver)
+    color: $color-revolver
     font-size: 48px
     font-weight: bold
 
   &__button
-    background-color: var(--color-orange)
-    color: var(--color-white)
+    background-color: $color-orange
+    color: $color-white
     text-decoration: none
     justify-self: self-start
     align-self: self-start
@@ -31,7 +27,7 @@
     white-space: nowrap
 
     &:hover
-      background-color: var(--color-revolver)
+      background-color: $color-revolver
 
       &::before
         padding-left: 6px

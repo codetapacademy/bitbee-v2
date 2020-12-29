@@ -3,8 +3,9 @@
   .team__member-list
     each user in data.team
       .team__member
-        .team__avatar(
-          style=`--bg-avatar: url(${baseUrl}asset/image/team/${user.avatar})`
+        img.team__avatar(
+          src=`${baseUrl}asset/image/team/${user.avatar}`
+          alt=`Image of ${user.name}, who is a ${user.job} at BitBee Ltd`
         )
         .team__name= user.name
         .team__job= user.job
