@@ -338,6 +338,39 @@
       icon: facebook
       url: https://www.facebook.com/cate.ak.56
 
+- name: Iulia Malciu
+  type: collaborator
+  job: Starter Web Developer
+  avatar: iulia-malciu.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/UnfrozenOne
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/iulia-malciu-8131344b/
+
+- name: Ionel Zburlea
+  type: collaborator
+  job: Sales
+  avatar: ionel-zburlea.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/ionel.zburlea
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/ionel-zburlea-78652a160/
+
+- name: Adela Sagau
+  type: collaborator
+  job: Starter Web Developer
+  avatar: adela-sagau.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/adelacecilia88
+
 - name: Adrian Ciociu
   type: collaborator
   job: Starter Web Developer
