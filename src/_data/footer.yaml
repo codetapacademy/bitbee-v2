@@ -1,0 +1,17 @@
+contact:
+  -
+    url: https://discord.gg/5T2UXz2
+    icon: discord
+    label: Live Chat on Discord
+  -
+    url: https://youtube.com/codetap?sub_confirmation=1
+    icon: youtube
+    label: 100 of free lessons
+  -
+    url: https://facebook.com/codetap
+    icon: facebook
+    label: Do you prefer FaceBook?
+  -
+    url: "#"
+    icon: gmail
+    label: "@"

@@ -12,8 +12,12 @@ html(lang="en")
   body
     include ../mixin/index
     block awesome-content
+
+    include ../footer/footer
+
+    script(src=`${baseUrl}asset/js/image-observer.js`)
+
     //- The style.css is at the bottom so it doesn't
     //- block the loading of assets
-    script(src=`${baseUrl}asset/js/image-observer.js`)
     if config.entry.css.external
       link(rel="stylesheet", href=`${baseUrl}style.css`)

@@ -1,0 +1,53 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?veqfj9') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?veqfj9') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?veqfj9##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bb-"], [class*=" bb-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bb-gmail {
+  &:before {
+    content: $bb-gmail;     
+    color: #d14836;
+  }
+}
+.bb-facebook {
+  &:before {
+    content: $bb-facebook;     
+    color: #1877f2;
+  }
+}
+.bb-youtube {
+  &:before {
+    content: $bb-youtube;     
+    color: #f00;
+  }
+}
+.bb-discord {
+  &:before {
+    content: $bb-discord;     
+    color: #7289da;
+  }
+}
+
