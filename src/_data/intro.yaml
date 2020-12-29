@@ -1,13 +1,14 @@
-title: 'you are our #1 priority'
+title: 'you are our'
+subTitle: '#1 priority'
 list:
   -
-    title: for your company
+    title: your company
     whatYouGet:
       - increase sales
       - perfect Google score
       - more clients
   -
-    title: for you as a web developer
+    title: your job
     whatYouGet:
       - get hired quickly
       - 1 to 1 mentorship

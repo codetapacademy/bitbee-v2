@@ -1,10 +1,15 @@
 .intro
-  .intro__logo
-  h1.intro__title= data.intro.title
+  header.intro__top
+    .intro__logo
+    h1.intro__title= data.intro.title
+    h2.intro__sub-title= data.intro.subTitle
   .intro__welcome
     each item in data.intro.list
       ul.intro__you-get-list
         li.intro__list-type= item.title
         each listItem in item.whatYouGet
           li.intro__you-get=listItem
+    .intro__image(
+      style=`--bg-url: url(${baseUrl}asset/image/perfect-google-speed.png)`
+    )
 
