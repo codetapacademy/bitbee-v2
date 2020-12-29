@@ -16,9 +16,6 @@ mixin textImage(data)
       )= data.button
 
     if data.image
-      img.text-image__image(
-        src=`${baseUrl}asset/image/${data.image}`
+      img.text-image__image.smart-load(
+        data-src=`${baseUrl}asset/image/${data.image}`
       )
-      //- .text-image__image(
-      //-   style=`--bg-url: url(${baseUrl}asset/image/${data.image})`
-      //- )

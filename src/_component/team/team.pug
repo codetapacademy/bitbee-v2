@@ -6,8 +6,8 @@
   .team__member-list
     each user in team
       .team__member
-        img.team__avatar(
-          src=`${baseUrl}asset/image/team/${user.avatar}`
+        img.team__avatar.smart-load(
+          data-src=`${baseUrl}asset/image/team/${user.avatar}`
           alt=`Image of ${user.name}, who is a ${user.job} at BitBee Ltd`
         )
         .team__name= user.name
@@ -17,8 +17,8 @@
   .team__member-list
     each user in collaboratorList
       .team__member
-        img.team__avatar(
-          src=`${baseUrl}asset/image/team/${user.avatar}`
+        img.team__avatar.smart-load(
+          data-src=`${baseUrl}asset/image/team/${user.avatar}`
           alt=`Image of ${user.name}, who is a ${user.job} at BitBee Ltd`
         )
         .team__name= user.name
