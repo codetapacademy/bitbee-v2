@@ -12,6 +12,7 @@
     -
       icon: github
       url: https://github.com/marianzburlea
+
 - name: Gratiela Zburlea
   type: team
   job: Marketing & Founder
@@ -26,6 +27,7 @@
     -
       icon: github
       url: https://github.com/gratielazburlea
+
 - name: Laurentiu Tanase
   type: team
   job: Senior Back-End Developer
@@ -139,6 +141,21 @@
     -
       icon: github
       url: https://github.com/tandaraelena
+
+- name: Dorin Dumitrascuta
+  type: team
+  job: Mid Web Developer
+  avatar: dorin-dumitrascuta.jpg
+  social:
+    -
+      icon: facebook
+      url: https://www.facebook.com/ddumitrascuta
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/ddumitrascuta/
+    -
+      icon: github
+      url: https://github.com/JestVA
 
 - name: Razvan Mocanu
   type: team
