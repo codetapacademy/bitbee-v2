@@ -20,4 +20,14 @@ html(lang="en")
     //- The style.css is at the bottom so it doesn't
     //- block the loading of assets
     if config.entry.css.external
-      link(rel="stylesheet", href=`${baseUrl}style.css`)
+      link(
+        rel="preload"
+        href=`${baseUrl}asset/font/bitbee.ttf?2021yeey`
+        as="font"
+        type="font/ttf"
+        crossorigin
+      )
+      link(
+        rel="stylesheet"
+        href=`${baseUrl}style.css`
+      )
