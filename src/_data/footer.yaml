@@ -2,16 +2,24 @@ contact:
   -
     url: https://discord.gg/5T2UXz2
     icon: discord
-    label: Live Chat on Discord
+    description: "You can chat live with us via: text, voice, video, webcam, share screen, so far the best choice, so JOIN! Click on the watch video button to see how easy it is to find new friends with similar stories like you, find what approach they had to succeed in such a short time! It happened to them, it can happen to you too!"
+    title: Write "Hello!" and press "Enter"
+    videoId: zyJoeSJl6DQ
   -
     url: https://youtube.com/codetap?sub_confirmation=1
     icon: youtube
-    label: 100's of free lessons
+    description: Subscribe to CodeTap on YouTube to be alerted of all the new lessons instantly, on your favourite platform. Click the watch button to see how easy it is to get subscribed to the latest lessons, news, tips, tricks and latest people that got hired successes of CodeTap Academy 
+    title: 100's of free lessons
+    videoId: M4LhPM7C3H4
   -
     url: https://facebook.com/codetap
     icon: facebook
-    label: Do you prefer FaceBook?
+    description: For facebook to heart users, we can start a chat here. Think about your biggest obstacle that holds you from getting hired, write it down in a message to us and press send! Click on the watch video button to see how easy it is to start a chat with us!
+    title: Do you prefer FaceBook?
+    videoId: fW054xGAhiI
   -
     url: "#"
     icon: gmail
-    label: "@"
+    description: If you are the person that organizes messages in emails, we got you covered, just watch the video to see how easy is to send one to us!
+    videoId: N01ce_P8BEs
+    title: "Use the old way, write us an e-mail"

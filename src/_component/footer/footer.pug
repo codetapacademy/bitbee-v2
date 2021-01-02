@@ -1,9 +1,37 @@
 .footer
   .footer__contact
-    h3.footer__title Let's have a chat!
+    h3.footer__main-title Let's have a chat!
+    .footer__video
+      .footer__iframe
+        iframe(
+          src="https://www.youtube.com/embed/zyJoeSJl6DQ" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+        )
     each anchor in data.footer.contact
-      a.footer__link(
-        class=`bb-${anchor.icon}`
-        title=`${anchor.label}`
-        href=`${anchor.url}`
-      )= anchor.label
+      .footer__card
+        a.footer__link(
+          class=`bb-${anchor.icon}`
+          title=`${anchor.label}`
+          href=`${anchor.url}`
+        )
+        h3.footer__title= anchor.title
+        p.footer__description= anchor.description
+        button(
+          data-video-id=anchor.videoId
+        ).footer__button Watch Video
+    script.
+      console.log("clic aici")
+      const iframe = document.querySelector('iframe')
+      document.querySelectorAll('.footer__button').forEach(fiecareElement => {
+        fiecareElement.addEventListener('click', () => {
+          console.log('m-ai nimerit')
+          console.log(fiecareElement.dataset.videoId)
+          iframe.setAttribute('src', `https://www.youtube.com/embed/${fiecareElement.dataset.videoId}?autoplay=1`)
+          iframe.scrollIntoView({
+            block: 'center',
+            behavior: 'smooth'
+          })
+        })
+      })
