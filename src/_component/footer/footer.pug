@@ -11,30 +11,37 @@
         )
     each anchor in data.footer.contact
       .footer__card
-        a.footer__link(
-          title=`${anchor.label}`
-          href=`${anchor.url}`
-        )
-          span.footer__link-pulse
-          span(
-            class=`bb-${anchor.icon}`
+        .footer__card-body
+          a.footer__link(
+            title=`Click to visit: ${anchor.label}`
+            href=anchor.url
           )
-        h3.footer__title= anchor.title
-        p.footer__description= anchor.description
-        button(
+            span.footer__link-pulse
+            span(
+              class=`bb-${anchor.icon}`
+            )
+          h3.footer__title= anchor.title
+          p.footer__description= anchor.description
+
+        a.footer__button(
           data-video-id=anchor.videoId
-        ).footer__button Watch Video
+          href="#"
+        ) Watch Video
+        if anchor.label
+          a.footer__link-button(
+            href=anchor.url
+          )= anchor.label
     script.
       console.log("clic aici")
       const iframe = document.querySelector('iframe')
       document.querySelectorAll('.footer__button').forEach(fiecareElement => {
-        fiecareElement.addEventListener('click', () => {
-          console.log('m-ai nimerit')
-          console.log(fiecareElement.dataset.videoId)
+        fiecareElement.addEventListener('click', e => {
           iframe.setAttribute('src', `https://www.youtube.com/embed/${fiecareElement.dataset.videoId}?autoplay=1`)
           iframe.scrollIntoView({
             block: 'center',
             behavior: 'smooth'
           })
+          e.preventDefault()
+          return
         })
       })
