@@ -12,10 +12,13 @@
     each anchor in data.footer.contact
       .footer__card
         a.footer__link(
-          class=`bb-${anchor.icon}`
           title=`${anchor.label}`
           href=`${anchor.url}`
         )
+          span.footer__link-pulse
+          span(
+            class=`bb-${anchor.icon}`
+          )
         h3.footer__title= anchor.title
         p.footer__description= anchor.description
         button(
