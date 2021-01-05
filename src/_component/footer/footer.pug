@@ -4,7 +4,7 @@
     .footer__video
       .footer__iframe
         iframe(
-          src="https://www.youtube.com/embed/zyJoeSJl6DQ" 
+          src="https://www.youtube.com/embed/5dAJgeNelHI" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen
@@ -23,10 +23,10 @@
           h3.footer__title= anchor.title
           p.footer__description= anchor.description
 
-        a.footer__button(
-          data-video-id=anchor.videoId
-          href="#"
-        ) Watch Video
+        //- a.footer__button(
+        //-   data-video-id=anchor.videoId
+        //-   href="#"
+        //- ) Watch Video
         if anchor.label
           a.footer__link-button(
             href=anchor.url
