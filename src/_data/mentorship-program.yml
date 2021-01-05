@@ -1,4 +1,30 @@
-title: Find your purpose, Change your life
-description: Are you stuck in a bad 9 to 5 and can't see any way out or up for the better? Over 30 people have been mentored from Zero to Hired and every single one of them have been WoWed, extremely surprised of how fast they got hired.
-image: mentorship-program.png
-button: Help me get hired!
+-
+  title: Find your purpose, Change your life
+  info: Are you stuck in a bad 9 to 5 and can't see any way out or up for the better? Over 30 people have been mentored from Zero to Hired and every single one of them have been WoWed, extremely surprised of how fast they got hired.
+  description:
+    - Over 30 people have been mentored from Zero to Hired and every single one of them have been WoWed, extremely surprised of how fast they got hired.
+    - We help you find your purpose, gain valuable knowledge and experience that you can bring to projects and teams, so companies pay you as much as it feels like a dream.
+    - Invest in yourself by chosing a present and future job that will secure yourself a nice life, an amazing environment where to spend your time.
+    - Of course, be part of creating and maintaining the future of the web through amazing web products and services.
+  image: mentorship-program.png
+  button: Help me get hired!
+-
+  title: Get the knowledge to Get hired
+  info: With or without any prior knowledge of how to build a website
+  description:
+    - With or without any prior knowledge of how to build a website, we got all the processes and knowledge from top successful experts with 20+ years in the field, so you can succeed in months instead of 10 to 20 years.
+    - You can master how to get high on the carrer lader through step by step courses and 1 to 1 mentor sessions, designed to your personal needs and aimed for success.
+  image: get-the-knowledge-to-get-hired.png
+  button: Help me get hired!
+-
+  title: The secret sauce to be successful
+  info: To be successful web developer you want to be in the top 10% valuable web developers so companies see you as a "need to have you" and not as a "nice to have".
+  description:
+    - You'll be able to always receive the most recent techniques, technologies and tools so you can stay at the top and use the knowledge in the present.
+    - Other competitors teach you 10 to 20 years or more outdated courses, that no longer apply today and provide little to no help.
+    - You can get in touch directly with successful mentors that live every single day practicing the craft that you want to master, enabling your clients to quickly benefit from top valuable and up to date knowledge.
+    - You will get exposed to every routine that enables you and your team mates, to deliver mobile and web products or services, on the market, in time and crush your competitors.
+    - Basically you get to work just as any other developer does, without being required to know how to or any prior experience about it.
+
+  image: the-secret-to-be-successful.png
+  button: Help me get hired!

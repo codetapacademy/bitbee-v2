@@ -4,18 +4,28 @@
     .toLowerCase()
     .replace(/[\?!]+/g, '')
     .replace(/\W+/g, '-')
-mixin textImage(data)
-  .text-image
-    if data.title
-      h2.text-image__title= data.title
-    if data.description
-      p.text-image__description= data.description
-    if data.button
-      a.text-image__button(
-        href=`${baseUrl}info/${getSlug(data.button)}`
-      )= data.button
 
-    if data.image
-      img.text-image__image.smart-load(
-        data-src=`${baseUrl}asset/image/${data.image}`
-      )
+mixin textImage(data)
+  - var list = Array.isArray(data) ? data: [data]
+  each data in list
+    .text-image
+      if data.title
+        h2.text-image__title= data.title
+
+      if data.info
+        h3.text-image__info= data.info
+
+      if data.description && Array.isArray(data.description)
+        each desc in data.description
+          p.text-image__description= desc
+
+      if data.button
+        //- href=`${baseUrl}info/${getSlug(data.button)}`
+        a.text-image__button(
+          href=`#contact`
+        )= data.button
+
+      if data.image
+        img.text-image__image.smart-load(
+          data-src=`${baseUrl}asset/image/${data.image}`
+        )
