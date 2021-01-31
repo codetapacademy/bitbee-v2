@@ -1,15 +1,16 @@
-.intro
-  header.intro__top
-    .intro__logo
-    h1.intro__title= data.intro.title
-    h2.intro__sub-title= data.intro.subTitle
-  .intro__welcome
-    each item in data.intro.list
-      ul.intro__you-get-list
-        li.intro__list-type= item.title
-        each listItem in item.whatYouGet
-          li.intro__you-get=listItem
-    img.intro__image(
-      src=`${baseUrl}asset/image/perfect-google-speed.png`
-      alt="You can count on us to build your Perfect Website or We can Teach you how to do it"
-    )
+mixin intro(intro)
+  .intro
+    header.intro__top
+      .intro__logo
+      h1.intro__title= intro.title
+      h2.intro__sub-title= intro.subTitle
+    .intro__welcome
+      each item in intro.list
+        ul.intro__you-get-list
+          li.intro__list-type= item.title
+          each listItem in item.whatYouGet
+            li.intro__you-get=listItem
+      img.intro__image(
+        src=`${baseUrl}asset/image/perfect-google-speed.png`
+        alt="You can count on us to build your Perfect Website or We can Teach you how to do it"
+      )

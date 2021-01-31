@@ -1,0 +1,59 @@
+extends ../_component/layout/base
+
+block awesome-content
+  +intro(data['mentorship-explained'])
+
+  h1 From Zero to Hired
+  h2 Total Cost
+  p The total cost of the "From Zero to Hired" is twenty thousand pounds (£20,000), which is broken down into:
+  ul
+    li £2,000 to be paid when you join
+    li £18,000 to be paid in monthly installments
+
+  table.table__smart
+    thead
+      tr
+        td.table__cell.table__title(colspan="3") Type of member
+      tr
+        td.table__sub-title Gold
+        td.table__sub-title Silver
+        td.table__sub-title Bronze
+    tbody
+      tr
+        td.table__cell(colspan="3") Pay when you join
+      tr
+        td.table__cell £2,000
+        td.table__cell £2,000
+        td.table__cell £2,000
+      tr
+        td.table__cell(colspan="3") Length of contract
+      tr
+        td.table__cell pay £500 every month for
+        td.table__cell pay £500 every month for
+        td.table__cell pay £500 every month for
+      tr
+        td.table__cell 36 months
+        td.table__cell 24 months
+        td.table__cell 18 months
+      tr
+        td.table__cell
+          each n in [...Array(36).keys()]
+            .price__disc--small £500
+        td.table__cell
+          each n in [...Array(24).keys()]
+            .price__disc--normal £750
+        td.table__cell
+          each n in [...Array(18).keys()]
+            .price__disc--big £1,000
+
+
+  h2 If you already have skills, do you want the best help for you to get hired?
+  img(
+    src="https://app.kartra.com/button/tc/98cd3064dc3090602ecad85765c25fe4"
+    style="border:0px; width:0px; height: 0px;"
+  )
+
+  //- +textImage(data['fast-website'])
+  //- +textImage(data['mentorship-program'])
+
+  //- include _component/team/team
