@@ -1,7 +1,7 @@
 extends _component/layout/base
 
 block awesome-content
-  include _component/intro/intro
+  +intro(data.intro)
 
   +textImage(data['fast-website'])
   +textImage(data['mentorship-program'])

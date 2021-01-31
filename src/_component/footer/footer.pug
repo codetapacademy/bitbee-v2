@@ -3,8 +3,8 @@
     h3.footer__main-title Let's have a chat!
     .footer__video
       .footer__iframe
-        iframe(
-          src="https://www.youtube.com/embed/5dAJgeNelHI" 
+        iframe.load-later(
+          data-src="https://www.youtube.com/embed/5dAJgeNelHI" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen
@@ -32,7 +32,6 @@
             href=anchor.url
           )= anchor.label
     script.
-      console.log("clic aici")
       const iframe = document.querySelector('iframe')
       document.querySelectorAll('.footer__button').forEach(fiecareElement => {
         fiecareElement.addEventListener('click', e => {
