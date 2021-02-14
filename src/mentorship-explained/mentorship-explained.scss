@@ -44,6 +44,15 @@
   border-radius: 50%;
 }
 
+.membership-h1 {
+  text-align: center
+}
+
+.membership-h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
 .price__disc {
   &--small {
     @extend %price__disc;
