@@ -67,6 +67,66 @@
       icon: linkedin
       url: https://www.linkedin.com/in/cristina-hertea-3277621b9/
 
+- name: Sebastian George Padure
+  type: team
+  job: Junior Front-End Developer
+  avatar: sebastian-padure.jpg
+  social:
+    -
+      icon: facebook 
+      url: https://www.facebook.com/george.padure.sebastian
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/sebastian-george-padure-5790a9a9/
+    -
+      icon: github
+      url: https://github.com/blowymind99/
+
+- name: Raluca Ghintuiala
+  type: team
+  job: Junior Front-End Developer
+  avatar: raluca-ghintuiala.jpg
+  social:
+    -
+      icon: facebook 
+      url: https://www.facebook.com/raluca.ghintuiala
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/raluca-ghintuiala-22b019206/
+    -
+      icon: github
+      url: https://github.com/RalucaRbc/
+
+- name: Andrei Maftei
+  type: team
+  job: Junior Front-End Developer
+  avatar: andrei-maftei.jpg
+  social:
+    -
+      icon: facebook 
+      url: https://www.facebook.com
+    -
+      icon: linkedin
+      url: https://www.linkedin.com
+    -
+      icon: github
+      url: https://github.com/andreimaff
+
+- name: Maria-Teodora Cotofana
+  type: team
+  job: Junior Front-End Developer
+  avatar: maria.jpg
+  social:
+    -
+      icon: facebook 
+      url: https://www.facebook.com/mushyroom.m/
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/maria-teodora-cotofana-0a56a019b/
+    -
+      icon: github
+      url: https://github.com/MariaTeo/
+
 - name: Bogdan Negura
   type: team
   job: Junior Front-End Developer
@@ -159,7 +219,7 @@
 
 - name: Razvan Mocanu
   type: team
-  job: Mid Web Developer
+  job: Senior Web Developer & Mentor
   avatar: razvan-mocanu.jpg
   social:
     -
