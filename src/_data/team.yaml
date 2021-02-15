@@ -97,6 +97,21 @@
       icon: github
       url: https://github.com/RalucaRbc/
 
+- name: Constantin Matei
+  type: team
+  job: Junior Front-End Developer
+  avatar: constantin-matei.jpg
+  social:
+    -
+      icon: facebook 
+      url: https://www.facebook.com/constantin.matei.56/
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/constantin-matei-05329325/
+    -
+      icon: github
+      url: https://github.com/Constantin-Matei
+
 - name: Andrei Maftei
   type: team
   job: Junior Front-End Developer
