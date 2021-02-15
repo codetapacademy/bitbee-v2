@@ -97,6 +97,21 @@
       icon: github
       url: https://github.com/RalucaRbc/
 
+- name: Maria-Teodora Cotofana
+  type: team
+  job: Junior Front-End Developer
+  avatar: maria.jpg
+  social:
+    -
+      icon: facebook 
+      url: https://www.facebook.com/mushyroom.m/
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/maria-teodora-cotofana-0a56a019b/
+    -
+      icon: github
+      url: https://github.com/MariaTeo/
+
 - name: Bogdan Negura
   type: team
   job: Junior Front-End Developer
