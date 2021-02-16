@@ -3,61 +3,32 @@ extends ../_component/layout/base
 block awesome-content
   +intro(data['mentorship-explained'])
 
-  h1.membership-h1(colspan="3") Daily Academy Mentored Member
-  h2.membership-h2(colspan="3") [ 2 spots left ] out of 10
-  table.table__smart
-    thead
-      tr
-        td.table__cell(colspan="3") From Zero to Hired - General Student Offer
-      tr
-        td.table__cell(colspan="3")
-          span It is required a minimum of 20 hours per week of effort. 
-          div Example: 5 days a week of 4 hours per day, or 3 hours per day each day of the week, or more effort during the weekend less in during the week.
-      tr
-        td.table__cell(colspan="3") 
-          p The total cost of the "From Zero to Hired" is twenty thousand pounds (£20,000), which is broken down into:
-          ul
-            li £2,000 to be paid when you join
-            li £18,000 to be paid in monthly installments
-      tr
-        td.table__sub-title(colspan="3") You will get 1 to 1 mentoring on a daily basis
-      tr
-        td.table__sub-title Bronze
-        td.table__sub-title Silver
-        td.table__sub-title Gold
-      tr
-        td.table__cell(colspan="3") Weekly required hours
-      tr
-        td.table__sub-title 20+
-        td.table__sub-title 30+
-        td.table__sub-title 40+
-    tbody
-      tr
-        td.table__cell(colspan="3") Pay when you join
-      tr
-        td.table__cell £2,000 join fee
-        td.table__cell £2,000 join fee
-        td.table__cell £2,000 join fee
-      tr
-        td.table__cell(colspan="3") Length of contract
-      tr
-        td.table__cell pay £500 every month for
-        td.table__cell pay £750 every month for
-        td.table__cell pay £1,000 every month for
-      tr
-        td.table__cell 36 months
-        td.table__cell 24 months
-        td.table__cell 18 months
-      tr
-        td.table__cell
-          each n in [...Array(36).keys()]
-            .price__disc--small £500
-        td.table__cell
-          each n in [...Array(24).keys()]
-            .price__disc--normal £750
-        td.table__cell
-          each n in [...Array(18).keys()]
-            .price__disc--big £1,000
+  h1 A few or the students make £150,000 per year
+  p Most of the students make £150,000 or more in their first 3 years on the job
+  h2 What would £150,000 in revenue do for you?
+  h2 Would you like to be in the position of breaking £1,000,000 every 5 to 10 years?
+  ul 
+    li you can stop paying rent 
+    li you can buy from the cheapest to the most expensive electric car that goes from zero to 60mph in less than 2 seconds 
+    li you can travel the world 
+    li you can start safetly and securely a family 
+    li you can finally stop working in a bad 9 to 5
+    li you can start your own business in time 
+    li you can mix and match and come up with your own
+
+  h1.membership-h1 In how many months do you see yourself getting hired?
+  p You only need to sustain an invesment of the starting fee and the number of months till you get hired.
+
+  h1.membership-h1 As soon as you get hired, 3 things happen to you 
+  ol
+    li The mentoshrip cost pays for itself 
+    li You revover 100% of your investment 
+    li You make a crazy amount of profit
+
+
+  
+
+  h1.membership-h1 Daily Academy Mentored Member
 
   table.table__smart
     thead
@@ -74,11 +45,19 @@ block awesome-content
             li £2,000 to be paid when you join
             li £18,000 to be paid in monthly installments
       tr
-        td.table__sub-title(colspan="3") You will get 1 to 1 mentoring on a daily basis
+        td.table__sub-title You will get 1 to 1 mentoring on one day of the week
+        td.table__sub-title(colspan="2") You will get 1 to 1 mentoring on a daily basis
       tr
-        td.table__sub-title Bronze
-        td.table__sub-title Silver
-        td.table__sub-title Gold
+        td.table__sub-title
+          div 5 sponsored spots
+          div (out of 25)
+        td.table__sub-title(colspan="2")
+          div 0 spots left
+          div (out of 10)
+      tr
+        td.table__sub-title Nightly
+        td.table__sub-title Part-time
+        td.table__sub-title Full-time
       tr
         td.table__cell(colspan="3") Weekly required hours
       tr
@@ -102,7 +81,7 @@ block awesome-content
         td.table__cell
           div £2,000 join fee = 
           div £1,000 when you start + 
-          div £1,000 when you get hired
+          div £1,000 when you get hired or 12 months since you started, whichever comes first
           div (if you get hired in less than 6 months, we pay the second half for you)
       tr
         td.table__cell(colspan="3") Length of contract
@@ -160,6 +139,8 @@ block awesome-content
           div
             h1 £11,500
       tr
+        td.table__sub-title(colspan="3") Your average earnings over 3 years investment
+      tr
         td.table__cell
           h1 £133,500
           div your profit for 3 years or being hired
@@ -183,132 +164,3 @@ block awesome-content
           div you can activate your daily subscription values every single day of the month up to a maximum of 20 times during that month
           div the sponsorship is valid for 12 months (1 year)
           div the mentorship is on active priority for 12 months (1 year) or until you reach £50,000 per year or more
-
-
-
-  h1.membership-h1(colspan="3") Nightly Academy Mentored Member
-  h2.membership-h2(colspan="3") 40 spots left
-  table.table__smart
-    thead
-      tr
-        td.table__cell(colspan="3") From Zero to Hired - General Student Offer
-      tr
-        td.table__cell.table__title(colspan="3") Nightly Mentored Member
-      tr
-        td.table__cell(colspan="3") 
-          span It is required a minimum of 10 hours per week of effort. 
-          div Example: 5 days a week of 1 hours per dayand 2 and a half hours daily during the weekend.
-      tr
-        td.table__cell(colspan="3") 
-          p The total cost of the "From Zero to Hired" is nine thousand nine hundred pounds (£9,900), which is broken down into:
-          ul
-            li £1,500 to be paid when you join
-            li £8,400 to be paid in monthly installments
-      tr
-        td.table__sub-title(colspan="3") 
-          span You will get 1 to 1 mentoring 
-          div on a weekly basis (one day per week)
-    tbody
-      tr
-        td.table__cell(colspan="3") Pay when you join
-      tr
-        td.table__cell(colspan="3") £1,500 join fee
-      tr
-        td.table__cell(colspan="3") Length of contract
-      tr
-        td.table__cell(colspan="3") pay £350 every month for
-      tr
-        td.table__cell(colspan="3") 24 months
-      tr
-        td.table__cell(colspan="3")
-          each n in [...Array(24).keys()]
-            .price__disc--small £350
-      tr
-        td.table__cell(colspan="3")
-          h1 £140,100
-          div your profit for 3 years or being hired
-          h2 £150,000 - £9,900
-
-  table.table__smart
-    thead
-      tr
-        td.table__cell(colspan="3") Social Student Offer***
-      tr
-        td.table__cell(colspan="3") 
-          p The total cost of the "From Zero to Hired" is twenty thousand pounds (£9,900), which is broken down into:
-          ul
-            li £1,500 to be paid when you join
-            li £8,400 to be paid in monthly installments
-      tr
-        td.table__sub-title(colspan="3")
-          span You will get 1 to 1 mentoring 
-          div on a weekly basis
-    tbody
-      tr
-        td.table__cell(colspan="3") Pay when you join
-      tr
-        td.table__cell(colspan="3")
-          div £1,500 join fee = 
-          div 
-          b £500 
-          span when you start
-          div 
-          b £500 
-          span six months later
-          div 
-          b £500 
-          span twelve months later
-          div (if you get hired in less than 6  or 12 months, we wil pay for you the remaing amount to be paid, of your join fee, in a podcast)
-      tr
-        td.table__cell(colspan="3") Length of contract
-      tr
-        td.table__cell(colspan="3") pay £350 every month for
-      tr
-        td.table__cell(colspan="3")
-          div we can pay through sponsorship up to 
-          div £100 of your bill
-          div reducing the cost 
-          div down to £250
-      tr
-        td.table__sub-title(colspan="3") If you are willing to document your journey from Zero to Hired and create videos on social media with your progress, we are willing to offer sponsorship and help you pay your monthly membership fee
-      tr
-        td.table__cell(colspan="3") you get £2,400 sponsorship
-      tr
-        td.table__cell(colspan="3") 24 months
-      tr
-        td.table__cell
-          each n in [...Array(24).keys()]
-            .price__disc--normal £350
-      tr
-        td.table__cell
-          div can reduce the total amount to be paid down to
-          div
-            h1 £6,500
-            h2 £9,900 - £2,400 - £500 - £500
-      tr
-        td.table__cell(colspan="3")
-          h1 £143,500
-          div your profit for 3 years or being hired
-          h2 £150,000 - £6,500
-      tr
-        td.table__cell(colspan="3")
-          h1 Sponsorship explained
-          ul
-            li each month you do one video with your mentor to summarize your experience in the past month, you will get all the weekly subscription values sumed up for that month and substracted from your next monthly bill
-            li each week you do a video and post it public on your YouTube and Facebook account with your progress for that week, on Friday, Saturday or Sunday, will activate all your daily subscription values
-            li each day you participate in our stand-up or post a video with your update, if you missed the stand-up, you will get your daily subscription value
-
-          div you can activate your daily subscription values every single day of the month up to a maximum of 20 times during that month
-          div the sponsorship is valid for 12 months (1 year)
-          div the mentorship is on active priority for 12 months (1 year) or until you reach £50,000 per year or more
-
-
-
-  h2 If you already have skills, do you want the best help for you to get hired?
-  p We are also in the process of recording over 100 lessons of all the tips, all the techniques, all the tricks, all the questions and answers, that mentors and students of CodeTap Academy have been using to generate job offer after job offer, hundreds of job offers ranging from £30,000 to £200,000.
-  p We take the mentorship out as well as the journey where you gain fast skills and experience, and leave everything that related to gettin lots of calls, lots of interviews and more job offers.
-  p All the content and processes presented in our course bundles have ben tested over and over, again and again. We promoted the ones that work and improved with every single experience we had, and we've turned this into science, the science of being in control of a continous job security, while reaching top 10% most well paid jobs in your niche.
-  //- +textImage(data['fast-website'])
-  //- +textImage(data['mentorship-program'])
-
-  //- include _component/team/team
