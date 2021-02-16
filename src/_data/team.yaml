@@ -6,7 +6,7 @@
     -
       icon: facebook
       url: https://www.facebook.com/marianzburlea
-    - 
+    -
       icon: linkedin
       url: https://www.linkedin.com/in/marianzburlea/
     -
@@ -67,13 +67,22 @@
       icon: linkedin
       url: https://www.linkedin.com/in/cristina-hertea-3277621b9/
 
+- name: Alexandra Hincu
+  type: team
+  job: Junior Front-End Developer
+  avatar: alexandra-hincu.jpg
+  social:
+    -
+      icon: github
+      url: https://github.com/M00N89
+
 - name: Sebastian George Padure
   type: team
   job: Junior Front-End Developer
   avatar: sebastian-padure.jpg
   social:
     -
-      icon: facebook 
+      icon: facebook
       url: https://www.facebook.com/george.padure.sebastian
     -
       icon: linkedin
@@ -88,7 +97,7 @@
   avatar: raluca-ghintuiala.jpg
   social:
     -
-      icon: facebook 
+      icon: facebook
       url: https://www.facebook.com/raluca.ghintuiala
     -
       icon: linkedin
@@ -103,7 +112,7 @@
   avatar: constantin-matei.jpg
   social:
     -
-      icon: facebook 
+      icon: facebook
       url: https://www.facebook.com/constantin.matei.56/
     -
       icon: linkedin
@@ -118,7 +127,7 @@
   avatar: andrei-maftei.jpg
   social:
     -
-      icon: facebook 
+      icon: facebook
       url: https://www.facebook.com
     -
       icon: linkedin
@@ -133,7 +142,7 @@
   avatar: maria.jpg
   social:
     -
-      icon: facebook 
+      icon: facebook
       url: https://www.facebook.com/mushyroom.m/
     -
       icon: linkedin
@@ -343,7 +352,7 @@
       icon: linkedin
       url: https://www.linkedin.com/in/viorica-bar-0a606450/
 
-- name: Laurentiu Oncescu 
+- name: Laurentiu Oncescu
   type: team
   job: Junior Web Developer
   avatar: laurentiu-oncescu.jpg
@@ -388,7 +397,7 @@
       icon: facebook
       url: https://www.facebook.com/istvan.acs.524
 
-- name: Marco Pietro Carmasachi 
+- name: Marco Pietro Carmasachi
   type: collaborator
   job: Mid Web Developer
   avatar: marco-pietro-carmasachi.jpg
