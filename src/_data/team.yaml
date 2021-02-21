@@ -136,6 +136,21 @@
       icon: github
       url: https://github.com/andreimaff
 
+- name: Paul-Nicolae Geambazu
+  type: team
+  job: Junior Front-End Developer
+  avatar: paul-nicolae-geambazu.jpg
+  social:
+    -
+      icon: facebook
+      url: https://facebook.com/paul.nicolae.9
+    -
+      icon: linkedin
+      url: https://www.linkedin.com/in/paul-nicolae-geambazu-875316133/
+    -
+      icon: github
+      url: https://github.com/NicolaePaulGeambazu
+
 - name: Maria-Teodora Cotofana
   type: team
   job: Junior Front-End Developer
