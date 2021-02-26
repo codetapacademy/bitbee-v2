@@ -76,6 +76,18 @@
       icon: github
       url: https://github.com/M00N89
 
+- name: Vasile Maftita
+  type: team
+  job: Starter Front-End Developer
+  avatar: vasile-maftita.jpg
+  social:
+    -
+      icon: facebook
+      url: https://facebook.com/maftita.vasile
+    -
+      icon: github
+      url: https://github.com/vasilemaftita
+
 - name: Sebastian George Padure
   type: team
   job: Junior Front-End Developer
