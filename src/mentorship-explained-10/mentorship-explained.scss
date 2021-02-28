@@ -1,0 +1,77 @@
+%table__cell {
+  border: 1px solid gray;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.table {
+  &__title {
+    @extend %table__cell;
+
+    font-size: 48px;
+    text-align: center;
+  }  
+
+  &__sub-title {
+    @extend %table__cell;
+
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+
+    &::nth-child(3n) {
+      border: 1px solid red
+    }
+  }
+
+  &__smart {
+    border: 1px solid gray;
+    margin: 1rem;
+    border-spacing: 1rem;
+    border-radius: 1rem;  
+  }
+
+  &__cell {
+    @extend %table__cell;
+  }
+}
+
+%price__disc {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+
+.membership-h1 {
+  text-align: center
+}
+
+.membership-h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.price__disc {
+  &--small {
+    @extend %price__disc;
+    border: 2px solid orangered;
+    width: 48px;
+    height: 48px;
+  }
+
+  &--normal {
+    @extend %price__disc;
+    border: 2px solid orchid;
+    width: 72px;
+    height: 72px;
+  }
+
+  &--big {
+    @extend %price__disc;
+    border: 2px solid rebeccapurple;
+    width: 96px;
+    height: 96px;
+  }
+}

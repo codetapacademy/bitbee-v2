@@ -1,0 +1,163 @@
+extends ../_component/layout/base
+
+block awesome-content
+  +intro(data['mentorship-explained'])
+
+  h1 A few or the students make £150,000 per year
+  p Most of the students make £150,000 or more in their first 3 years on the job
+  h2 What would £150,000 in revenue do for you?
+  h2 Would you like to be in the position of breaking £1,000,000 every 5 to 10 years?
+  ul 
+    li you can stop paying rent 
+    li you can buy from the cheapest to the most expensive electric car that goes from zero to 60mph in less than 2 seconds 
+    li you can travel the world 
+    li you can start safetly and securely a family 
+    li you can finally stop working in a bad 9 to 5
+    li you can start your own business in time 
+    li you can mix and match and come up with your own
+
+  h1.membership-h1 In how many months do you see yourself getting hired?
+  p You only need to sustain an invesment of the starting fee and the number of months till you get hired.
+
+  h1.membership-h1 As soon as you get hired, 3 things happen to you 
+  ol
+    li The mentoshrip cost pays for itself 
+    li You revover 100% of your investment 
+    li You make a crazy amount of profit
+
+
+
+  table.table__smart
+    thead
+      tr
+        td.table__cell(colspan="3") Social Student Offer***
+      tr
+        td.table__cell(colspan="3")
+          span It is required a minimum of 20 hours per week of effort. 
+          div Example: 5 days a week of 4 hours per day, or 3 hours per day each day of the week, or more effort during the weekend less in during the week.
+      tr
+        td.table__cell(colspan="3") 
+          p The total cost of the "From Zero to Hired" is twenty thousand pounds (£20,000), which is broken down into:
+          ul
+            li £2,000 to be paid when you join
+            li £18,000 to be paid in monthly installments
+      tr
+        td.table__sub-title You will get 1 to 1 mentoring on one day of the week
+        td.table__sub-title(colspan="2") You will get 1 to 1 mentoring on a daily basis
+      tr
+        td.table__sub-title
+          div 5 sponsored spots
+          div (out of 25)
+        td.table__sub-title(colspan="2")
+          div 0 spots left
+          div (out of 10)
+      tr
+        td.table__sub-title Nightly
+        td.table__sub-title Part-time
+        td.table__sub-title Full-time
+      tr
+        td.table__cell(colspan="3") Weekly required hours
+      tr
+        td.table__sub-title 20+
+        td.table__sub-title 30+
+        td.table__sub-title 40+
+    tbody
+      tr
+        td.table__cell(colspan="3") Pay when you join
+      tr
+        td.table__cell
+          div £2,000 join fee = 
+          div £1,000 (half) when you start + 
+          div £1,000 (half) when you get hired
+          div (if you get hired in less than 6 months, we pay the second half for you)
+        td.table__cell
+          div £2,000 join fee = 
+          div £1,000 when you start + 
+          div £1,000 when you get hired
+          div (if you get hired in less than 6 months, we pay the second half for you)
+        td.table__cell
+          div £2,000 join fee = 
+          div £1,000 when you start + 
+          div £1,000 when you get hired or 12 months since you started, whichever comes first
+          div (if you get hired in less than 6 months, we pay the second half for you)
+      tr
+        td.table__cell(colspan="3") Length of contract
+      tr
+        td.table__cell pay £500 every month for
+        td.table__cell pay £750 every month for
+        td.table__cell pay £1,000 every month for
+      tr
+        td.table__cell
+          div we can pay through sponsorship up to 
+          div £250 of your bill
+          div reducing the cost 
+          div down to £250
+        td.table__cell
+          div we can pay through sponsorship up to 
+          div £500 of your bill
+          div reducing the cost 
+          div down to £250
+        td.table__cell
+          div we can pay through sponsorship up to 
+          div £750 of your bill
+          div reducing the cost 
+          div down to £250
+      tr
+        td.table__sub-title(colspan="3") If you are willing to document your journey from Zero to Hired and create videos on social media with your progress, we are willing to offer sponsorship and help you pay your monthly membership fee
+      tr
+        td.table__cell you get £2,500 sponsorship
+        td.table__cell you get £5,000 sponsorship
+        td.table__cell you get £7,500 sponsorship
+      tr
+        td.table__cell 36 months
+        td.table__cell 24 months
+        td.table__cell 18 months
+      tr
+        td.table__cell
+          each n in [...Array(36).keys()]
+            .price__disc--small £500
+        td.table__cell
+          each n in [...Array(24).keys()]
+            .price__disc--normal £750
+        td.table__cell
+          each n in [...Array(18).keys()]
+            .price__disc--big £1,000
+      tr
+        td.table__cell
+          div can reduce the total amount to be paid down to
+          div
+            h1 £16,500
+        td.table__cell
+          div can reduce the total amount to be paid down to
+          div
+            h1 £14,000
+        td.table__cell
+          div can reduce the total amount to be paid down to
+          div
+            h1 £11,500
+      tr
+        td.table__sub-title(colspan="3") Your average earnings over 3 years investment
+      tr
+        td.table__cell
+          h1 £133,500
+          div your profit for 3 years or being hired
+          h2 £150,000 - £16,500
+        td.table__cell
+          h1 £136,000
+          div your profit for 3 years or being hired
+          h2 £150,000 - £14,000
+        td.table__cell
+          h1 £138,500
+          div your profit for 3 years or being hired
+          h2 £150,000 - £11,500
+      tr
+        td.table__cell(colspan="3")
+          h1 Sponsorship explained
+          ul
+            li each month you do one video with your mentor to summarize your experience in the past month, you will get all the weekly subscription values sumed up for that month and substracted from your next monthly bill
+            li each week you do a video and post it public on your YouTube and Facebook account with your progress for that week, on Friday, Saturday or Sunday, will activate all your daily subscription values
+            li each day you participate in our stand-up or post a video with your update, if you missed the stand-up, you will get your daily subscription value
+
+          div you can activate your daily subscription values every single day of the month up to a maximum of 20 times during that month
+          div the sponsorship is valid for 12 months (1 year)
+          div the mentorship is on active priority for 12 months (1 year) or until you reach £50,000 per year or more

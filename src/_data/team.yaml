@@ -406,16 +406,6 @@
       icon: facebook
       url: https://www.facebook.com/vlasie.dragos.7
 
-- name: Daniel Varvara
-  type: collaborator
-  job: Mid Web Developer
-  avatar: daniel-varvara.jpg
-  social:
-    -
-      icon: facebook
-      url: https://www.facebook.com/Searath
-
-
 - name: Cate Zee
   type: collaborator
   job: Web Developer
