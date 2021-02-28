@@ -475,25 +475,6 @@
       icon: linkedin
       url: https://www.linkedin.com/in/ionel-zburlea-78652a160/
 
-- name: Adela Sagau
-  type: collaborator
-  job: Starter Web Developer
-  avatar: adela-sagau.jpg
-  social:
-    -
-      icon: facebook
-      url: https://www.facebook.com/adelacecilia88
-
-
-- name: Catalin Sandru
-  type: collaborator
-  job: Starter Web Developer
-  avatar: catalin-sandru.jpg
-  social:
-    -
-      icon: facebook
-      url: https://www.facebook.com/sandru.catalin.1
-
 - name: Ancuta Hantari
   type: collaborator
   job: Starter Web Developer
