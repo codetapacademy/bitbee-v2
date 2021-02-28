@@ -494,15 +494,6 @@
       icon: facebook
       url: https://www.facebook.com/sandru.catalin.1
 
-- name: Adrian Ciociu
-  type: collaborator
-  job: Starter Web Developer
-  avatar: adrian-ciociu.jpg
-  social:
-    -
-      icon: facebook
-      url: https://www.facebook.com/AdrianCiociu1
-
 - name: Ancuta Hantari
   type: collaborator
   job: Starter Web Developer
