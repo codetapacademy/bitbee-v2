@@ -1,10 +1,14 @@
 doctype html
 html(lang="en")
+  block config
   head
     title Lower your bounce rate with a quick to load website
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(charset="utf-8")
     meta(content="We build your website to load faster than you can blink or we teach you how to do it. Sounds great? Let's chat!" name="description")
+    
+    if noIndex
+      meta(name="robots" content="noindex")
     //- this checks to see the the "embed" property is set to "true"
     //- in the package.json file
     if config.entry.css.embed
